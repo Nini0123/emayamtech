@@ -1,0 +1,269 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 80px;
+    align-items: center;
+  }
+  
+  nav .logo img {
+    height: 90px;
+    width: 240px;
+    margin-left: 45px;
+  }
+  
+  nav .nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    margin-left:13px;
+  }
+  
+  
+  nav .button .but {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 80px;
+    border:2px solid #a53892 ;
+    font-size: 18px;
+  }
+  nav .button .but:hover {
+    background-color: #a53892;
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  .button1 .but {
+    background-color: #a53892;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100px;
+    border: none;
+    margin-left: 550px;
+    
+  }
+  
+  .button1 .but:hover {
+    background-color: white;
+    color: #a53892;
+    border: 2px solid black;
+    cursor: pointer;
+  
+  }
+  
+  .iframe {
+    text-align: center;
+  }
+  
+  .button1 {
+    margin-left: 187px;
+    text-align: center;
+  }
+  
+  .contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+    
+  }
+  
+  .contact-box {
+    width: 330px;
+    height: 160px;
+    padding: 30px;
+    background: black;
+    color: white;
+    margin: 10px;
+    margin-top: 70px;
+    transition: 1s;
+    border-radius:5px ;
+    border:2px solid #a53892 ;
+   
+   
+  }
+  .contact-box:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  background-color: black;
+  
+  }
+  .contact-box img {
+    width: auto;
+    height: 40px;
+   
+   
+  }
+  .contact-box title{
+    text-shadow: 2px 3px 2px white;
+   
+  }
+  
+  textarea {
+    height: 100px;
+    width: 200px;
+  }
+  
+  .form {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0,5);
+    background: rgba(255,255,255,0.1);
+    width: 1180px;
+    backdrop-filter: blur;
+    border-radius: 30px;
+  }
+  
+  .form .send span {
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+  }
+  .form input{
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding:10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    
+    
+  }
+  
+  table tr td{
+    
+    padding-left:50px ;
+  }
+  .form input::placeholder{
+    color: white;
+  }
+  .form textarea{
+    color: white;
+    width: 200px;
+    height: 100px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    
+  
+  }
+  .form textarea::placeholder{
+    color: white;
+    font-size: 15px;
+  }
+  label {
+    direction: ltr;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .send {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .send label {
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+    text-align: center;
+  }
+  
+  
+  
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  table {
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  .footer {
+    display: flex;
+    background-color: black;
+    padding: 30px;
+    box-sizing: border-box;
+  
+  }
+  
+  .footer button {
+    background-color:#a53892;
+    color: white;
+    padding: 8px 16px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  .footer button:hover {
+    background-color: white;
+    color: purple;
+  
+  }
+  
+  .footer .experts {
+    max-width: 430px;
+    margin-left: 70px;
+  }
+  
+  .footer .links {
+    max-width: 300px;
+    text-align: center;
+    margin-left: 190px;
+  }
+  
+  .footer .links a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer .address {
+    max-width: 450px;
+    margin-left: 160px;
+  }
+  
+  body {
+   background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .footer .links a:hover {
+    text-decoration: underline;
+    color:#a53892;
+  }
+  
+  .contact-box a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .contact-box a:hover {
+    text-decoration: underline;
+  }
