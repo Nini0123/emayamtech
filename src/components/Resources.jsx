@@ -1,30 +1,50 @@
 import React, { useState } from 'react';
 import './Resources.css'
+import f1 from '../images/f1.jpg';
+import f2 from '../images/f2.jpeg';
+import f3 from '../images/f3.jpeg';
+import f4 from '../images/f4.jpeg';
+import t1 from '../images/t-1.png'
+import t2 from '../images/t-2.png'
+import t3 from '../images/t-3.png'
+import t4 from '../images/t-4.png'
+import t7 from '../images/t-7.png'
+import t8 from '../images/t-8.png'
+import t9 from '../images/t-9.png'
+import t10 from '../images/t-10.png'
+import t11 from '../images/t-11.png'
+import a from '../images/a.png'
+import b from '../images/b.png'
+import c from '../images/c.png'
+import ee from '../images/ee.png'
+import f from '../images/f.png'
+import g from '../images/g.png'
+import b8 from '../images/b8.jpg'
 
 function App() {
   const webDevelopmentImages = [
-    { id: 11, src: '../images/f1.jpg' },
-    { id: 12, src: '../images/f2.jpeg' },
-    { id: 13, src: '../images/f4.jpeg' },
-    { id: 14, src: '../images/f3.jpeg' },
+    { id: 11, src: f1 },
+    { id: 12, src: f2 },
+    { id: 13, src: f4 },
+    { id: 14, src: f3 },
   ];
 
   const socialMediaImages = [
-    { id: 1, src: '../images/t-1.png' },
-    { id: 2, src: '../images/t-10.png' },
-    { id: 10, src: '../images/a.png' },
-    { id: 3, src: '../images/t-3.png' },
-    { id: 4, src: '../images/t-9.png' },
-    { id: 5, src: '../images/t-11.png' },
-    { id: 6, src: '../images/t-7.png' },
-    { id: 7, src: '../images/t-4.png' },
-    { id: 8, src: '../images/t-8.png' },
-    { id: 9, src: '../images/t-2.png' },
-    { id: 15, src: '../images/b.png' },
-    { id: 16, src: '../images/c.png' },
-    { id: 17, src: '../images/ee.png' },
-    { id: 18, src: '../images/f.png' },
-    { id: 19, src: '../images/g.png' },
+    { id: 1, src: t1 },
+    { id: 2, src: t10 },
+    { id: 10, src: a },
+    { id: 3, src: t3 },
+    { id: 4, src: t9 },
+    { id: 5, src: t11 },
+    { id: 6, src: t7 },
+    { id: 7, src: t4 },
+    { id: 8, src: t8 },
+    { id: 9, src: t2 },
+    { id: 15, src: b },
+    { id: 16, src: c },
+    { id: 17, src: ee },
+    { id: 18, src: f },
+    { id: 19, src: g },
   ];
 
   const [imagePopupOpen, setImagePopupOpen] = useState(false);
@@ -74,7 +94,7 @@ function App() {
     <div className="App">
       <div className="content">
         <div className="image-container">
-          <img src="/images/back1.jpg" alt="mage" style={{ height: '300px', width: '1200px' }} />
+          <img src={b8} alt="mage" style={{ height: '300px', width: '1200px' }} />
         </div>
         <div className="template-container">
           <h1 style={{ marginLeft: '50px', marginTop: '90px' }}>Template</h1>
