@@ -57,10 +57,10 @@ const Home = () => {
             <h1 className="anim">Innovative IT Solutions</h1>
             <h1 className="anim anim1">for Modern Businesses</h1>
             <div className="cta anim">
-              <a className="book-call" href="./Contact.jsx">
+              <a className="book-call" href="./Contact">
                 Book A Call
               </a>
-              <a href="./About.jsx" className="learn-more anim">
+              <a href="./About" className="learn-more anim">
                 Learn More
               </a>
             </div>
@@ -132,7 +132,7 @@ const Home = () => {
               you&apos;re a partner in our journey towards digital greatness.
               Let&apos;s embark on this journey together and create something
               truly extraordinary.
-              <a href="./About.jsx">CONNECT WITH US</a>
+              <a href="./About">CONNECT WITH US</a>
             </p>
           </div>
           <div className="abt-box"></div>
@@ -163,7 +163,7 @@ const Home = () => {
                         development, and web hosting.
                       </p>
                       <p>
-                        <a href="./Services.jsx">READ MORE</a>
+                        <a href="./Services">READ MORE</a>
                       </p>
                     </div>
                   </div>
@@ -188,7 +188,7 @@ const Home = () => {
                         inventory management, and more, into a centralized
                         system.
                       </p>
-                      <a href="./Services.jsx">READ MORE</a>
+                      <a href="./Services">READ MORE</a>
                     </div>
                   </div>
                 </div>
@@ -212,7 +212,7 @@ const Home = () => {
                         information. Whether you&apos;re a small startup or a
                         large enterprise.
                       </p>
-                      <a href="./Services.jsx">READ MORE</a>
+                      <a href="./Services">READ MORE</a>
                     </div>
                   </div>
                 </div>
@@ -238,7 +238,7 @@ const Home = () => {
                         popular platforms such as YouTube, LinkedIn, Facebook,
                         and Instagram.
                       </p>
-                      <a href="./Services.jsx">READ MORE</a>
+                      <a href="./Services">READ MORE</a>
                     </div>
                   </div>
                 </div>
@@ -263,7 +263,7 @@ const Home = () => {
                         and insightful data scraping services, we &APOS; ve got
                         you covered.
                       </p>
-                      <a href="./Services.jsx">READ MORE</a>
+                      <a href="./Services">READ MORE</a>
                     </div>
                   </div>
                 </div>
@@ -296,7 +296,7 @@ const Home = () => {
               your appointment now and embark on a journey towards unparalleled
               creativity, reliability, and client success!
             </p>
-            <a href="./Contact.jsx" className="book-clr">
+            <a href="./Contact" className="book-clr">
               Book An Appointment
             </a>
           </div>
@@ -317,7 +317,7 @@ const Home = () => {
             <img src={temp3} className="temp-img" alt=""></img>
           </div>
         </div>
-        <a href="./Resources.jsx" className="a">
+        <a href="./Resources" className="a">
           View More
         </a>
       </div>
