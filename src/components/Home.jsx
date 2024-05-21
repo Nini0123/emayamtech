@@ -141,9 +141,9 @@ const Home = () => {
       {/* About Page ends */}
       {/* Service Page Starts */}
       <div className="service">
-        <h1 data-AOS="fade-up">Our comprehensive IT Services</h1>
+        <h1 data-aos="fade-up">Our comprehensive IT Services</h1>
         <div className="serv-container">
-          <div className="container container-1" data-AOS="fade-up">
+          <div className="container container-1" data-aos="fade-up">
             <div className="box box-1">
               <div className="flip-box">
                 <div className="flip-box-inner">
@@ -219,7 +219,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="container container-2" data-AOS="fade-up">
+          <div className="container container-2" data-aos="fade-up">
             <div className="box box-4">
               <div className="flip-box">
                 <div className="flip-box-inner">
@@ -277,15 +277,15 @@ const Home = () => {
       {/* Book and appointment starts */}
       <div className="book">
         <div className="book-contain">
-          <div className="book-img" data-AOS="fade-up">
+          <div className="book-img" data-aos="fade-up">
             <img className="bok-img" src={layer1} alt="" ></img>
             <img className="bok-img" src={layer2} alt="" ></img>
           </div>
-          <div className="book-content" data-AOS="fade-up">
-            <h1 className="book-clr" data-AOS="fade-up">
+          <div className="book-content" data-aos="fade-up">
+            <h1 className="book-clr" data-aos="fade-up">
               Step into the Future
             </h1>
-            <p className="book-clr" data-AOS="fade-up">
+            <p className="book-clr" data-aos="fade-up">
               Ready to take the next step towards digital success? Book an
               appointment with Emayamtech today and let us help you unleash the
               power of innovative web solutions tailored to your unique needs.
@@ -305,15 +305,15 @@ const Home = () => {
       {/* Book and appointment ends */}
       {/* Template starts */}
       <div className="template-containers">
-        <h1 data-AOS="fade-up">Explore Our Portfolio</h1>
+        <h1 data-aos="fade-up">Explore Our Portfolio</h1>
         <div className="templat">
-          <div className="temp" data-AOS="fade-up">
+          <div className="temp" data-aos="fade-up">
             <img src={temp1} className="temp-img" alt=""></img>
           </div>
-          <div className="temp" data-AOS="fade-up">
+          <div className="temp" data-aos="fade-up">
             <img src={temp2} className="temp-img" alt=""></img>
           </div>
-          <div className="temp" data-AOS="fade-up">
+          <div className="temp" data-aos="fade-up">
             <img src={temp3} className="temp-img" alt=""></img>
           </div>
         </div>
@@ -325,9 +325,9 @@ const Home = () => {
 
       {/* mission starts */}
       <div className="mission line-height">
-        <h1 data-AOS="fade-up">DEFINING OUR PURPOSE</h1>
+        <h1 data-aos="fade-up">DEFINING OUR PURPOSE</h1>
         <div className="mission-container">
-          <div className="mission-1" data-AOS="fade-up">
+          <div className="mission-1" data-aos="fade-up">
             <img src={mission} alt=""></img>
             <h2>Mission</h2>
             <p>
@@ -335,7 +335,7 @@ const Home = () => {
               solutions, empowering businesses to thrive in the digital age
             </p>
           </div>
-          <div className="mission-1" data-AOS="fade-up">
+          <div className="mission-1" data-aos="fade-up">
             <img src={vision} alt=""></img>
             <h2>Vision</h2>
             <p>
@@ -344,7 +344,7 @@ const Home = () => {
               commitment to client success.
             </p>
           </div>
-          <div className="mission-1" data-AOS="fade-up">
+          <div className="mission-1" data-aos="fade-up">
             <img src={foundation} alt=""></img>
             <h2>Foundation</h2>
             <p>
@@ -352,7 +352,7 @@ const Home = () => {
               excellence, and dedicated to customer satisfaction.{" "}
             </p>
           </div>
-          <div className="mission-1" data-AOS="fade-up">
+          <div className="mission-1" data-aos="fade-up">
             <img src={core} alt=""></img>
             <h2>Our Core Values</h2>
             <p> Enduring partnerships, growth, and positive digital impact.</p>
@@ -363,13 +363,13 @@ const Home = () => {
       {/* mission ends */}
       {/* partners start */}
       <div className="partners line-height">
-        <h1 data-AOS="fade-up">OUR PARTNER</h1>
-        <p data-AOS="fade-up">
+        <h1 data-aos="fade-up">OUR PARTNER</h1>
+        <p data-aos="fade-up">
           At EmayamTech, we deeply value the relationships we have with our
           partners. We believe in the power of collaboration and recognize that
           our success is intricately tied to the success of our partners.{" "}
         </p>
-        <div className="partner-box" data-AOS="fade-up">
+        <div className="partner-box" data-aos="fade-up">
           <div className="partner-1">
             <a href="https://www.vconnectexperts.com/">
               <img src={logo1} width={"160px"} alt=""></img>
