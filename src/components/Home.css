@@ -878,7 +878,7 @@ header {
   .partners{
     width: 100%;
     height: fit-content;
-    background: linear-gradient(135deg, #a53892, #f161f1, #5e1451);
+    background: white;
     padding: 0 150px;
     padding-bottom: 50px;
     

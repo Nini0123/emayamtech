@@ -1,7 +1,7 @@
 import Img1 from '../images/img1.png'
 import './Services.css'
 import Webdevimg from '../images/webdevelopment.png' 
-import Img3 from '../images/2.png'
+import Img3 from '../images/2 copy.png'
 import Erpimg from '../images/ERP.png' 
 import Dataserverimg from '../images/dataserver.png'
 import Img9 from '../images/webimg1.png'
@@ -14,12 +14,11 @@ import Img19 from '../images/linkedin.png'
 import Img20 from '../images/facebook.png'
 import Img21 from '../images/whatsapp.png'
 import Img22 from '../images/insta.webp'
-import data  from '../datafiles/serviceimg.json'  
 import Datascr  from '../images/datascr.png'
 import Emailbst  from '../images/emailbst.png'
 import Whatappbst  from '../images/whatappbst.png'
+import { Link } from 'react-router-dom'
 export default function Services(){
-    console.log(data);
     return( 
        
         <>
@@ -31,11 +30,11 @@ export default function Services(){
                     <p  className='services-description linehgt'>From captivating web development to targeted social media management, 
                         we provide the tools you need to succeed online. With seamless ERP integration, 
                         secure data servers, and strategic messaging services, we empower you to drive 
-                        growth and connect with your audience effectively. Partner with us to unlock your business&apos;s full digital 
+                        growth and connect with your audience effectively. Partner with us to unlock your business's full digital 
                         potential.</p>
                 </div>
                 <div className='col-md-6 center  img-fluid '>
-                    <img src={Img1} className='servicesimage hideinmob' alt="services" />
+                    <img src={Img1} className='servicesimage hideinmob' alt="services-mage" />
                 </div>
             </div>
             <div className='spt-overall  center pad '>
@@ -122,7 +121,7 @@ export default function Services(){
                     your site reflects your brand and resonates with your target market.
                    </p>
                 </div>
-                 <div className='cnt center'>
+                 <div className='cnt1 center'>
                     <div className='img-cnt'>
                         <img className='webimage' src={Img9} alt="" />
                     </div>
@@ -134,8 +133,9 @@ export default function Services(){
                     </div>
                     </div>
                     <div className='center'>
-
-                    <button className='btn web-btn btn-primary '>VIEW MORE</button>
+                    <Link to="/Resources">
+                        <button className='btn web-btn btn-primary '>VIEW MORE</button>
+                    </Link>
                     </div>
             </div>
             <div className='erp  pad '>
@@ -149,7 +149,7 @@ export default function Services(){
                 <p className='linehgt showobj' >Your website is your online storefront. We specialize in creating captivating,
                      user-friendly websites that reflect 
                     your brand and engage your audience, ultimately driving conversions. </p>
-                     <div className='center cnt'>
+                     <div className='center cnt1'>
                         <img src={Img12} className='erp-image' alt="" />
                         <img src={Img13} className='erp-image' alt="" />
                         <img src={Img14} className='erp-image' alt="" />
@@ -162,7 +162,7 @@ export default function Services(){
                         <p className='linehgt hideobj'>Data is the lifeblood of modern businesses, and safeguarding it is 
                             paramount. Our secure and reliable data servers provide a robust 
                             infrastructure for storing and accessing your valuable information.
-                             Whether you &apos;re a small startup or a large enterprise, our scalable 
+                             Whether you're a small startup or a large enterprise, our scalable 
                              solutions ensure optimal performance and data protection, allowing you 
                             to focus on what matters most—growing your business.</p>
                             <p  className='linehgt showobj'>Our secure data servers offer reliable storage and access
@@ -204,9 +204,9 @@ export default function Services(){
                     
                 </div>
                 <div className='col-lg-6 white soc-des'>
-                    <h2>Social Media     Management</h2>
+                    <h2>Social Media Management</h2>
                     <p className='linehgt hideobj'>In a world where social media reigns supreme, leveraging these
-                         platforms effectively can significantly impact your brand&apos;s visibility 
+                         platforms effectively can significantly impact your brand's visibility 
                          and engagement. Our social media management services encompass 
                          strategic content creation, community engagement, and targeted 
                          advertising across popular platforms such as YouTube, LinkedIn, 
@@ -214,7 +214,7 @@ export default function Services(){
                           with your audience, 
                         foster brand loyalty, and drive measurable results.</p>
                         <p  className='linehgt showobj'>
-                        Effective social media management boosts your brand&apos;s visibility and engagement. 
+                        Effective social media management boosts your brand's visibility and engagement. 
                         Our services include content creation, community engagement, and targeted advertising on platforms like YouTube, 
                         LinkedIn, Facebook, and Instagram. We help you connect with your audience, foster brand loyalty, and drive results.</p>
                 </div>  
@@ -225,19 +225,21 @@ export default function Services(){
                         <p className='linehgt hideobj'>
                         Reach your audience where they are with our comprehensive digital marketing 
                         solutions. From strategic WhatsApp campaigns to engaging email blasts and
-                        insightful data scraping services, we&apos;ve got you covered. Harness the power
+                        insightful data scraping services, we've got you covered. Harness the power
                         of direct communication, targeted messaging, and actionable insights to drive
                             engagement, conversions, and business growth.
-                        Let us help you make a meaningful impact in todays competitive landscape.
+                        Let us help you make a meaningful impact in today's competitive landscape.
                         </p>
                         <p className='linehgt showobj'>
                         Reach your audience effectively with our digital marketing solutions. We offer WhatsApp campaigns, email blasts, and data scraping services to drive engagement and conversions. Harness direct communication and actionable insights to grow your business. Let us help 
-                        you make a meaningful impact in todays competitive landscape.</p>
+                        you make a meaningful impact in today's competitive landscape.</p>
                     </div>
                     <div className='row dgi-overall'>
                         <div className='col-lg-4'>
                             <h3>  WhatsApp Blast</h3>
+                            <div className='center' >
                             <img className='data-image' src={Whatappbst} alt="" />
+                            </div>
                             <div className='center'>
                                 <p className='linehgt dgi-cnt'>Engage with your audience directly and instantly through 
                                 strategic WhatsApp campaigns. Our WhatsApp blast services 
@@ -247,21 +249,25 @@ export default function Services(){
                             </div>
                             
                         </div>
-                        <div className='col-lg-4'>
+                        <div className='col-lg-4 cnt2'>
                             <h3> Email Blast</h3>
-                            <img className='data-image' src={Emailbst} alt="" />
+                            <div className='center' >
+                                <img className='data-image' src={Emailbst} alt="" />
+                            </div>
                             <div className='center'>
                             <p className='linehgt dgi-cnt'>Email marketing remains one of the most effective ways to 
                                 connect with your audience and drive conversions. Our email
                                  blasting services leverage targeted campaigns, compelling content, 
                                  and advanced analytics to deliver results. </p>
                         </div>
-                        </div>
-                        <div className='col-lg-4'>
+                        </div>  
+                        <div className='col-lg-4 ' style={{alignItems:'center'}}>
                             <h3>  Data Scraping</h3>
-                            <img className='data-image' src={Datascr} alt="" />
+                            <div className='center' >
+                                <img className='data-image' src={Datascr} alt="" />
+                            </div>
                             <div className='center'>
-                            <p className='linehgt dgi-cnt'>In today&apos;s data-driven world, access to actionable 
+                            <p className='linehgt dgi-cnt'>In today's data-driven world, access to actionable 
                                 insights is key to gaining a competitive edge. 
                                 Our data scraping services harness the power of technology to gather valuable
                                  information from various online sources. </p>
@@ -271,10 +277,6 @@ export default function Services(){
             </div>
            <div>
                 
-            </div>
-            
-            <div className='center bottom  regrand'>
-                bottom padding sater irevar
             </div>
         </div>
         </>

@@ -57,6 +57,7 @@ nav ul li a.active {
 .ctn-btn:hover {
   background-color: #a53892;
   cursor: pointer;
+  color: white;
 }
 
 @media only screen and (max-width: 576px) {

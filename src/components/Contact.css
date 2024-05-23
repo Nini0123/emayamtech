@@ -6,6 +6,15 @@
     margin-left: 187px;
     text-align: center;
   }
+
+  .but{
+    border: 2px solid #a53892;
+    background: #a53892;
+    padding: 5px 40px;
+    border-radius: 30px;
+    margin-left: 95px;
+
+  }
   
   .contact-section {
     display: flex;
@@ -16,8 +25,8 @@
   }
   
   .contact-box {
-    width: 330px;
-    height: 160px;
+    width: 380px;
+    height: 250px;
     padding: 30px;
     background: black;
     color: white;
@@ -47,6 +56,10 @@
     height: 100px;
     width: 200px;
   }
+
+  .h{
+    margin-top: 50px;
+  }
   
   .form {
     align-items: center;
@@ -59,6 +72,7 @@
     width: 1180px;
     backdrop-filter: blur;
     border-radius: 30px;
+    margin-bottom: 50px;
   }
   
   .form .send span {
@@ -130,4 +144,3 @@
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
   }
-  

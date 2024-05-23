@@ -20,6 +20,9 @@ import ee from '../images/ee.png'
 import f from '../images/f.png'
 import g from '../images/g.png'
 import b8 from '../images/b8.jpg'
+import art1 from '../images/art-1.png'
+import art2 from '../images/art-2.png'
+import art3 from '../images/art-3.png'
 
 function App() {
   const webDevelopmentImages = [
@@ -94,19 +97,67 @@ function App() {
     <div className="App">
       <div className="content">
         <div className="image-container">
-          <img src={b8} alt="mage" style={{ height: '300px', width: '1200px' }} />
+          <img src={b8} alt="mage" style={{ height: '300px', width: '1800px' }} />
         </div>
         <div className="template-container">
-          <h1 style={{ marginLeft: '50px', marginTop: '90px' }}>Template</h1>
-        </div>
-        <p style={{ marginLeft: '150px' }}>WEB DEVELOPMENT</p>
+          <h1 style={{ marginLeft: '50px', marginTop: '100px' }}>Template</h1>
+        </div><br/>
+        <p style={{ marginLeft: '50px' }}>WEB DEVELOPMENT</p>
         <br />
         <WebDevelopmentImages />
         <br /><br /><br />
-        <p style={{ marginLeft: '110px' }}>SOCIAL MEDIA MANAGEMENT</p>
+        <p style={{ marginLeft: '50px' }}>SOCIAL MEDIA MANAGEMENT</p>
         <Gallery imageList={socialMediaImages} />
       </div>
       <br /><br />
+      <div className="latest line-height">
+        <h1>LATEST NEWS</h1>
+        <div className="latest-container">
+          <div className="latest-news">
+            <a href="article-1">
+              <img src={art1} alt=""></img>
+            </a>
+            <p className="date">15/05/2024</p>
+            <a href="article-1">
+              <h4>lorem ipsum dolar amet</h4>
+            </a>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div className="latest-news">
+            <a href="article-2">
+              <img src={art2} alt=""></img>
+            </a>
+            <p className="date">15/05/2024</p>
+            <a href="article-2">
+              <h4>lorem ipsum dolar amet</h4>
+            </a>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div className="latest-news">
+            <a href="article-3">
+              <img src={art3} alt=""></img>
+            </a>
+            <p className="date">15/05/2024</p>
+            <a href="article-3">
+              <h4>lorem ipsum dolar amet</h4>
+            </a>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+      
       {imagePopupOpen && (
         <div className="image-popup-container">
           <span className="close-button" onClick={handleImageClose}>

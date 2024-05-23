@@ -39,8 +39,8 @@ function Footer() {
             <div className="footer-col footer-col-3 ">
               <h2>CONTACT US</h2>
               <ul>
-                <li>Phone Number: [Insert Phone Number]</li>
-                <li>Email Address: [Insert Email Address]</li>
+                <li><a href='tel:+91 8111 066 066'>Phone Number: +91 8111 066 066</a></li>
+                <li><a href='mailto:sales@emayamtech.com'>Email Address: sales@emayamtech.com</a></li>
                 <li>
                   Address: Unit No.1, 1st Floor, PRINCE INFO CITY-II,
                   <br /> OMR, Nehru Nagar, Perungudi, Chennai,

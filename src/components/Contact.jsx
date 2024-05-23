@@ -19,66 +19,71 @@ function Contact() {
     e.preventDefault();
     const errorObject = {};
     if (!firstName) {
-      errorObject.firstName = "First name is required";
+        errorObject.firstName = "First name is required";
     } else if (!/^[A-Za-z]{2,}$/i.test(firstName)) {
-      errorObject.firstName = "Invalid name";
+        errorObject.firstName = "Invalid name";
     }
     if (!lastName) {
-      errorObject.lastName = "Last name is required";
+        errorObject.lastName = "Last name is required";
     } else if (!/^[A-Za-z]{2,}$/i.test(lastName)) {
-      errorObject.lastName = "Invalid name";
+        errorObject.lastName = "Invalid name";
     }
     if (!email) {
-      errorObject.email = "Email is required";
+        errorObject.email = "Email is required";
     } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email)) {
-      errorObject.email = "Invalid email address";
+        errorObject.email = "Invalid email address";
     }
     if (!phone) {
-      errorObject.phone = "Phone number is required";
+        errorObject.phone = "Phone number is required";
     } else if (!/^\d{10}$/.test(phone)) {
-      errorObject.phone = "Invalid phone number format";
+        errorObject.phone = "Invalid phone number format";
     }
     if (!subject) {
-      errorObject.subject = "Subject is required";
+        errorObject.subject = "Subject is required";
     }
     if (!message) {
-      errorObject.message = "Message is required";
+        errorObject.message = "Message is required";
     }
     setErrors(errorObject);
     if (Object.keys(errorObject).length === 0) {
-      const formData = new FormData();
-      formData.append("firstName", firstName);
-      formData.append("lastName", lastName);
-      formData.append("email", email);
-      formData.append("phone", phone);
-      formData.append("subject", subject);
-      formData.append("message", message);
+        const formData = new FormData();
+        formData.append("firstName", firstName);
+        formData.append("lastName", lastName);
+        formData.append("email", email);
+        formData.append("phone", phone);
+        formData.append("subject", subject);
+        formData.append("message", message);
 
-      const url = "http://localhost/submit.php";
-      axios
-        .post(url, formData)
-        .then((response) => alert(response.data))
-        .catch((error) => alert(error));
+        const url = "http://192.168.1.6:3000/submit.php";
+        axios
+            .post(url, formData, {
+                headers: {
+                    'Content-Type': 'multipart/form-data'
+                }
+            })
+            .then((response) => alert(response.data))
+            .catch((error) => alert(error));
 
-      const webAppUrl =
-        "https://script.google.com/macros/s/AKfycbxt9bhEOz3g01awWypbRHcXIxMEGrMWrwkDG48yv70uq3q57mCGF3Sjpyy04I-M6ipf/exec";
+        const webAppUrl =
+            "https://script.google.com/macros/s/AKfycbzUPxP-zQch4N-307WwmMYyQhiAWGHOkis-xh6aM6aNDiV2Q-q1dqz9qJ5ol2da3ZtByQ/exec";
 
-      fetch(webAppUrl, {
-        method: "POST",
-        body: formData,
-      })
-        .then((response) =>
-          alert("Thanks for Contacting us..! We Will Contact You Soon...")
-        )
-        .catch((error) => console.error("Error!", error.message));
+        fetch(webAppUrl, {
+            method: "POST",
+            body: formData,
+        })
+            .then((response) =>
+                alert("Thanks for Contacting us..! We Will Contact You Soon...")
+            )
+            .catch((error) => console.error("Error!", error.message));
     }
-  };
+};
 
   return (
     <div className="App">
       <div className="h">
-        <h1 style={{ textAlign: "center", color: "white" }}> CONTACT US</h1>
-      </div>
+        <br/>
+        <h1 style={{ textAlign: "center", color: "white" ,fontSize:'30px'}}> CONTACT US</h1>
+      </div><br/>
       <Iframe />
       <ContactSection />
       <Form
@@ -121,6 +126,7 @@ function Contact() {
         }}
       />
     </div>
+    
   );
 }
 
@@ -132,10 +138,11 @@ function Iframe() {
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.049256255833!2d80.2481!3d12.9687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d6b25014c2d%3A0x60b2a36838a08aba!2sRegus%20-%20Chennai%2C%20Prince%20Infocity%20I!5e0!3m2!1sen!2sin!4v1713942253277!5m2!1sen!2sin"
         width="1200"
         height="450"
-        style={{ border: 0 }}
+        style={{ border: 0 ,marginLeft:'70px'}}
         allowFullScreen=""
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
+        
       />
     </div>
   );
@@ -151,12 +158,12 @@ function ContactSection() {
       />
       <ContactBox
         img={emailImg}
-        title="afreenhussain@gmail.com"
+        title="sales@emayamtech.com"
         address="Email your query"
       />
       <ContactBox
         img={phoneImg}
-        title="9352789250"
+        title="+91 8111 066 066"
         address="Monday-Saturday , 9am-7pm"
       />
     </div>
@@ -179,7 +186,7 @@ function ContactBox({ img, title, address }) {
       >
         <b>{title}</b>
       </p>
-      <p style={{ textShadow: "2px 2px 2px black", textAlign: "center" }}>
+      <p style={{ textShadow: "2px 2px 2px black", textAlign: "center" }}><br/>
         {address}
       </p>
     </div>

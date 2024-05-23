@@ -4,7 +4,8 @@
 }
 .services-title{
     margin-bottom: 35px;
-    padding-top: 60px !important;
+
+    font-size: 30px;
 }
 
 .linehgt{
@@ -14,6 +15,14 @@
 }
 .img-fluid {
    justify-content: end;
+}
+h2{
+    font-size: 26px;
+}
+h3{
+    font-size: 20px;
+    margin: 20px 0px;
+    font-weight: 600;
 }
 .servicesimage{
     width: 400px;
@@ -35,6 +44,7 @@ h1 , h2{
     justify-content: center;
     align-items: center;
 }
+
 .erp{
     text-align: center;
 }
@@ -82,7 +92,6 @@ h1 , h2{
     left: 0;
     color: white;
     /* background-color: white; */
-    width: 16rem;
     padding: 10px 30px;
     border-radius: 0 0 30px 30px;
     background-color: #a53892;
@@ -132,9 +141,6 @@ h1 , h2{
     .soc-el1{
         margin-left: 20px;
     }
-    .soc-el2{
-        margin-left: 190px;
-    }
     .data-image{
         width: 350px;
     }
@@ -144,6 +150,12 @@ h1 , h2{
     }
     .spt-image{
         width: 14rem;
+    }
+    .spt-body{
+        width: 16rem;
+    }
+    .services-title{
+        padding-top: 60px !important;
     }
 }
 /* medium screen */
@@ -158,9 +170,6 @@ h1 , h2{
     .soc-el1{
         margin-left: 20px;
     }
-    .soc-el2{
-        margin-left: 190px;
-    }
     .data-image{
         width: 350px;
     }
@@ -170,6 +179,13 @@ h1 , h2{
     }
     .spt-image{
         width: 14rem;
+    }
+    .spt-body{
+
+        width: 16rem;
+    }
+    .services-title{
+        padding-top: 60px !important;
     }
 }
 /* mobile screen */
@@ -199,6 +215,9 @@ h1 , h2{
     }
     .spt-image{
         width: 12rem;
+    }
+    .spt-body{
+        width: 14rem;
     }
 }
 .webimage{
@@ -232,7 +251,7 @@ h1 , h2{
 .web-btn:hover{
     border: 2px solid #a53892;
 }
-.cnt{
+.cnt1{
     display: flex;
     flex-wrap: wrap;
 }
@@ -287,6 +306,7 @@ h1 , h2{
     }
 }
 .data-image{
+    display: flex;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -300,6 +320,7 @@ h1 , h2{
 .soc-overall{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .soc-des{

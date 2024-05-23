@@ -3,9 +3,9 @@ header('Access-Control-Allow-Origin: *');
 
 
 $servername = "localhost";
-$username = "root";
-$password = " ";
-$dbname = "my form";
+$username = "emayamtech";
+$password = "Vcge@eMayam2023";
+$dbname = "emayamtech";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

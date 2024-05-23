@@ -30,6 +30,7 @@ import core from "../images/core.png";
 import logo1 from "../images/vcge.png";
 import logo2 from "../images/eMart Logo PNG.png";
 import logo3 from "../images/Emayam-Logo.png";
+import logo4 from "../images/image.png";
 import art1 from "../images/art-1.png";
 import art2 from "../images/art-2.png";
 import art3 from "../images/art-3.png";
@@ -308,13 +309,13 @@ const Home = () => {
         <h1 data-aos="fade-up">Explore Our Portfolio</h1>
         <div className="templat">
           <div className="temp" data-aos="fade-up">
-            <img src={temp1} className="temp-img" alt=""></img>
+            <a href="https://www.vconnectexperts.com/"><img src={temp1} className="temp-img" alt=""></img></a>
           </div>
           <div className="temp" data-aos="fade-up">
-            <img src={temp2} className="temp-img" alt=""></img>
+          <a href="https://www.emartxpress.in/"><img src={temp2} className="temp-img" alt=""></img></a>
           </div>
           <div className="temp" data-aos="fade-up">
-            <img src={temp3} className="temp-img" alt=""></img>
+            <a href=""></a><img src={temp3} className="temp-img" alt=""></img>
           </div>
         </div>
         <a href="./Resources" className="a">
@@ -382,7 +383,12 @@ const Home = () => {
           </div>
           <div className="partner-1">
             <a href="https://emayammart.com/">
-              <img src={logo3} width={"220px"} alt=""></img>
+              <img src={logo3} width={"240px"} alt=""></img>
+            </a>
+          </div>
+          <div className="partner-1">
+            <a href="https://zeromiddleman.com/">
+              <img src={logo4} width={"250px"} alt=""></img>
             </a>
           </div>
         </div>
