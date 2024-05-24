@@ -236,13 +236,11 @@ const About = () => {
                     <div className='p-5 lg:flex  gap-10 items-center '>
                       <img src={partner1} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
                       <div className=' max-w-[100px] mx-auto container'>
-                        <h1 className='text-xl'>Names</h1>
-                        <h1 className='text-xl'>Description</h1>
+                        <h1 className='text-xl'>Jayaprakash (JP) Subramani</h1>
+                        <h1 className='text-xl'>Founder & CEO</h1>
                          <div className='social-medias pt-2'>
                             <ul className='flex gap-3'>
-                                <li className='p-3'><FaLinkedin className='text-3xl text-white'/></li>
-                                <li className='p-3'><a href='#Linkedin'><FaGithubSquare className='text-3xl text-white' /></a></li>
-                                
+                                <li className='p-3'><a href='#Linkedin'><FaLinkedin className='text-3xl text-white'/></a></li>
                             </ul>
                          </div>
                       </div>
@@ -253,13 +251,11 @@ const About = () => {
                     <div className='p-5 lg:flex  gap-10 items-center '>
                       <img src={partner2} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
                       <div className=' max-w-[100px] mx-auto container'>
-                        <h1 className='text-xl'>Names</h1>
-                        <h1 className='text-xl'>Description</h1>
+                        <h1 className='text-xl'>Jayanthi Prakash</h1>
+                        <h1 className='text-xl'>Managing Director</h1>
                         <div className='social-medias pt-2'>
                             <ul className='flex gap-3'>
-                                <li className='p-3'><FaLinkedin className='text-3xl text-white'/></li>
-                                <li className='p-3'><a href='#Linkedin'><FaGithubSquare className='text-3xl text-white' /></a></li>
-                                
+                                <li className='p-3'><a href='#Linkedin'><FaLinkedin className='text-3xl text-white'/></a></li>
                             </ul>
                          </div>
                       </div>
@@ -270,13 +266,11 @@ const About = () => {
                     <div className='p-5 lg:flex  gap-10 items-center '>
                       <img src={partner3} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
                       <div className=' max-w-[100px] mx-auto container'>
-                        <h1 className='text-xl'>Names</h1>
-                        <h1 className='text-xl'>Description</h1>
+                        <h1 className='text-xl'>Priyadharshini Dhandapani</h1>
+                        <h1 className='text-xl'>Director & Project Manager</h1>
                         <div className='social-medias pt-2'>
                             <ul className='flex gap-3 '>
-                                <li className='p-3'><FaLinkedin className='text-3xl text-white'/></li>
-                                <li className='p-3'><a href='#Linkedin'><FaGithubSquare className='text-3xl text-white' /></a></li>
-                                
+                                <li className='p-3'><a href='#Linkedin'><FaLinkedin className='text-3xl text-white'/></a></li>                                
                             </ul>
                          </div>
                       </div>
@@ -287,13 +281,12 @@ const About = () => {
                     <div className='p-5 lg:flex  gap-10 items-center '>
                       <img src={partner4} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
                       <div className=' max-w-[100px] mx-auto container'>
-                        <h1 className='text-xl'>Names</h1>
-                        <h1 className='text-xl'>Description</h1>
+                        <h1 className='text-xl'>Priya Krish</h1>
+                        <h1 className='text-xl'>General Manager</h1>
                         <div className='social-medias pt-2'>
                             <ul className='flex gap-3 '>
-                                <li className='p-3'><FaLinkedin className='text-3xl text-white'/></li>
-                                <li className='p-3'><a href='#Linkedin'><FaGithubSquare className='text-3xl text-white' /></a></li>
-                                
+                                <li className='p-3'><a href='#Linkedin'><FaLinkedin className='text-3xl text-white'/></a></li>
+                            
                             </ul>
                          </div>
                       </div>
@@ -304,13 +297,12 @@ const About = () => {
                     <div className='p-5 lg:flex  gap-10 items-center '>
                       <img src={partner5} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
                       <div className=' max-w-[100px] mx-auto container'>
-                        <h1 className='text-xl'>Names</h1>
-                        <h1 className='text-xl'>Description</h1>
+                        <h1 className='text-xl'>Nihaa Fathima</h1>
+                        <h1 className='text-xl'>Project Lead</h1>
                         <div className='social-medias pt-2'>
                             <ul className='flex gap-3 '>
-                                <li className='p-3'><FaLinkedin className='text-3xl text-white'/></li>
-                                <li className='p-3'><a href='#Linkedin'><FaGithubSquare className='text-3xl text-white' /></a></li>
-                                
+                                <li className='p-3'><a href='#Linkedin'><FaLinkedin className='text-3xl text-white'/></a></li>
+                               
                             </ul>
                          </div>
                       </div>
