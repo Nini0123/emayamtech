@@ -100,7 +100,7 @@ function App() {
           <img src={b8} alt="mage" style={{ height: '300px', width: '1800px' }} />
         </div>
         <div className="template-container">
-          <h1 style={{ marginLeft: '50px', marginTop: '100px' }}>Template</h1>
+          <h1 style={{ marginLeft: '50px', marginTop: '100px' }}>RESOURCES</h1>
         </div><br/>
         <p style={{ marginLeft: '50px' }}>WEB DEVELOPMENT</p>
         <br />

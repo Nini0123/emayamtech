@@ -54,7 +54,7 @@ function Contact() {
         formData.append("subject", subject);
         formData.append("message", message);
 
-        const url = "http://192.168.1.6:3000/submit.php";
+        const url = "http://emayamtech.com/submit.php";
         axios
             .post(url, formData, {
                 headers: {
@@ -135,7 +135,7 @@ function Iframe() {
     <div className="iframe">
       <iframe
         title="Google Maps"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.049256255833!2d80.2481!3d12.9687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d6b25014c2d%3A0x60b2a36838a08aba!2sRegus%20-%20Chennai%2C%20Prince%20Infocity%20I!5e0!3m2!1sen!2sin!4v1713942253277!5m2!1sen!2sin"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.191099052838!2d80.2233927!3d12.9687948!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525da45a413581%3A0xfd39dfe7579bd4de!2sEMAYAM%20TOWERS!5e0!3m2!1sen!2sin!4v1716468301740!5m2!1sen!2sin"
         width="1200"
         height="450"
         style={{ border: 0 ,marginLeft:'70px'}}

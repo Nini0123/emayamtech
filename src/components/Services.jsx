@@ -61,7 +61,7 @@ export default function Services(){
                         <img src={Erpimg} className="spt-image" alt="..."/>
                     </div>
                     <div className="spt-body">
-                        <p className="spt-text">ERP</p>
+                        <p className="spt-text">Entroxa</p>
                         <p className='hiddentext'>Optimize operations, empower strategic growth.</p>
                     </div>
                 </div>
@@ -139,7 +139,7 @@ export default function Services(){
                     </div>
             </div>
             <div className='erp  pad '>
-                <h2 className='btmsp'>Enterprise Resource Management</h2>
+                <h2 className='btmsp'>ENTROXA</h2>
                 <p className='linehgt hideobj'>Efficiently managing your business operations is crucial for sustained
                      growth and success. Our comprehensive ERP solutions integrate various 
                      functions, including accounting, human resources, inventory management,

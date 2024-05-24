@@ -49,7 +49,7 @@ const Home = () => {
         <div className="h-container">
           <img
             className="img"
-            src={homeimg}
+            src={homeimg1}
             width="100px"
             height="100px"
             alt=""
@@ -68,7 +68,7 @@ const Home = () => {
           </div>
           <img
             className="img1"
-            src={homeimg1}
+            src={homeimg}
             width="100px"
             height="100px"
             alt=""
@@ -144,18 +144,18 @@ const Home = () => {
       <div className="service">
         <h1 data-aos="fade-up">Our comprehensive IT Services</h1>
         <div className="serv-container">
-          <div className="container container-1" data-aos="fade-up">
-            <div className="box box-1">
-              <div className="flip-box">
-                <div className="flip-box-inner">
-                  <div className="flip-box-front">
+          <div className="containe container-1" data-aos="fade-up">
+            <div className="bo bo-1">
+              <div className="flip-bo">
+                <div className="flip-box-inne">
+                  <div className="flip-box-fron">
                     <div className="img-container">
                       <img src={WD} alt=""></img>
                       <h3>WEB DEVELOPMENT</h3>
                     </div>
                   </div>
-                  <div className="flip-box-back">
-                    <div className="flip-back">
+                  <div className="flip-box-bac">
+                    <div className="flip-bac">
                       <h3>WEB DEVELOPMENT</h3>
                       <p>
                         Our web development services are designed to meet the
@@ -171,18 +171,18 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="box box-2">
-              <div className="flip-box">
-                <div className="flip-box-inner">
-                  <div className="flip-box-front">
+            <div className="bo box-2">
+              <div className="flip-bo">
+                <div className="flip-box-inne">
+                  <div className="flip-box-fron">
                     <div className="img-container">
                       <img src={ERP} alt=""></img>
-                      <h3>ENTERPRISE RESOURCE MANAGEMENT</h3>
+                      <h3>ENTROXA</h3>
                     </div>
                   </div>
-                  <div className="flip-box-back">
-                    <div className="flip-back">
-                      <h3>ENTERPRISE RESOURCE MANAGEMENT</h3>
+                  <div className="flip-box-bac">
+                    <div className="flip-bac">
+                      <h3>ENTROXA</h3>
                       <p>
                         Our comprehensive ERP solutions integrate various
                         functions, including accounting, human resources,
@@ -195,17 +195,17 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="box box-3">
-              <div className="flip-box">
-                <div className="flip-box-inner">
-                  <div className="flip-box-front">
+            <div className="bo box-3">
+              <div className="flip-bo">
+                <div className="flip-box-inne">
+                  <div className="flip-box-fron">
                     <div className="img-container">
                       <img src={DS} alt=""></img>
                       <h3>DATA SERVER</h3>
                     </div>
                   </div>
-                  <div className="flip-box-back">
-                    <div className="flip-back">
+                  <div className="flip-box-bac">
+                    <div className="flip-bac">
                       <h3>DATA SERVER</h3>
                       <p>
                         Our secure and reliable data servers provide a robust
@@ -220,18 +220,18 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="container container-2" data-aos="fade-up">
-            <div className="box box-4">
-              <div className="flip-box">
-                <div className="flip-box-inner">
-                  <div className="flip-box-front">
+          <div className="containe container-2" data-aos="fade-up">
+            <div className="bo box-4">
+              <div className="flip-bo">
+                <div className="flip-box-inne">
+                  <div className="flip-box-fron">
                     <div className="img-container">
                       <img src={SMM} alt=""></img>
                       <h3>SOCIAL MEDIA MANAGEMENT</h3>
                     </div>
                   </div>
-                  <div className="flip-box-back">
-                    <div className="flip-back">
+                  <div className="flip-box-bac">
+                    <div className="flip-bac">
                       <h3>SOCIAL MEDIA MANAGEMENT</h3>
                       <p>
                         Our SMM services encompass strategic content creation,
@@ -245,17 +245,17 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="box box-4">
-              <div className="flip-box">
-                <div className="flip-box-inner">
-                  <div className="flip-box-front">
+            <div className="bo box-4">
+              <div className="flip-bo">
+                <div className="flip-box-inne">
+                  <div className="flip-box-fron">
                     <div className="img-container">
                       <img src={DM} alt=""></img>
                       <h3>DIGITAL MARKETING TOOLS</h3>
                     </div>
                   </div>
-                  <div className="flip-box-back">
-                    <div className="flip-back">
+                  <div className="flip-box-bac">
+                    <div className="flip-bac">
                       <h3>DIGITAL MARKETING TOOLS</h3>
                       <p>
                         Reach your audience where they are with our

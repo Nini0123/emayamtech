@@ -1,7 +1,11 @@
 import React from 'react';
 import "./About.css";
 import AboutImage from '../images/remove.png'
-import partner from '../images/img1.jpg'
+import partner1 from '../images/Partner1.png'
+import partner2 from '../images/Partner2.png'
+import partner3 from '../images/Partner3.png'
+import partner4 from '../images/Partner4.png'
+import partner5 from '../images/Partner5.jpg'
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaRegLightbulb } from "react-icons/fa";
@@ -223,14 +227,14 @@ const About = () => {
       <div className='bg-black w-full h-full p-10'>
          
               <div className='flex items-center justify-center'>
-                  <h1 className='lg:text-5xl anim anim3'>Our Partners</h1>
+                  <h1 className='lg:text-5xl anim anim3'>OUR LEADERSHIP TEAM</h1>
             </div>
           <div className='mt-10 w-full h-full text-white'>
               <div className='lg:flex justify-around p-1 px-3'>
 
                   <div className='flex justify-around adjust w-full cursor-pointer slide_left anim3'>
                     <div className='p-5 lg:flex  gap-10 items-center '>
-                      <img src={partner} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
+                      <img src={partner1} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
                       <div className=' max-w-[100px] mx-auto container'>
                         <h1 className='text-xl'>Names</h1>
                         <h1 className='text-xl'>Description</h1>
@@ -247,7 +251,7 @@ const About = () => {
                   
                   <div className='flex justify-around w-full slide_right anim3'>
                     <div className='p-5 lg:flex  gap-10 items-center '>
-                      <img src={partner} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
+                      <img src={partner2} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
                       <div className=' max-w-[100px] mx-auto container'>
                         <h1 className='text-xl'>Names</h1>
                         <h1 className='text-xl'>Description</h1>
@@ -264,7 +268,41 @@ const About = () => {
 
                   <div className='flex justify-around w-full slide_right anim3' data-AOS="fade-up">
                     <div className='p-5 lg:flex  gap-10 items-center '>
-                      <img src={partner} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
+                      <img src={partner3} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
+                      <div className=' max-w-[100px] mx-auto container'>
+                        <h1 className='text-xl'>Names</h1>
+                        <h1 className='text-xl'>Description</h1>
+                        <div className='social-medias pt-2'>
+                            <ul className='flex gap-3 '>
+                                <li className='p-3'><FaLinkedin className='text-3xl text-white'/></li>
+                                <li className='p-3'><a href='#Linkedin'><FaGithubSquare className='text-3xl text-white' /></a></li>
+                                
+                            </ul>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className='flex justify-around w-full slide_right anim3' data-AOS="fade-up">
+                    <div className='p-5 lg:flex  gap-10 items-center '>
+                      <img src={partner4} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
+                      <div className=' max-w-[100px] mx-auto container'>
+                        <h1 className='text-xl'>Names</h1>
+                        <h1 className='text-xl'>Description</h1>
+                        <div className='social-medias pt-2'>
+                            <ul className='flex gap-3 '>
+                                <li className='p-3'><FaLinkedin className='text-3xl text-white'/></li>
+                                <li className='p-3'><a href='#Linkedin'><FaGithubSquare className='text-3xl text-white' /></a></li>
+                                
+                            </ul>
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className='flex justify-around w-full slide_right anim3' data-AOS="fade-up">
+                    <div className='p-5 lg:flex  gap-10 items-center '>
+                      <img src={partner5} alt='partner' className=' w-48 h-48 rounded-full hover:scale-90 duration-100 ' />
                       <div className=' max-w-[100px] mx-auto container'>
                         <h1 className='text-xl'>Names</h1>
                         <h1 className='text-xl'>Description</h1>
