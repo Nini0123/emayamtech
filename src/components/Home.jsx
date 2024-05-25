@@ -261,7 +261,7 @@ const Home = () => {
                         Reach your audience where they are with our
                         comprehensive digital marketing solutions. From
                         strategic WhatsApp campaigns to engaging email blasts
-                        and insightful data scraping services, we &APOS; ve got
+                        and insightful data scraping services, we&apos;ve got
                         you covered.
                       </p>
                       <a href="./Services">READ MORE</a>
@@ -309,13 +309,13 @@ const Home = () => {
         <h1 data-aos="fade-up">Explore Our Portfolio</h1>
         <div className="templat">
           <div className="temp" data-aos="fade-up">
-            <a href="https://www.vconnectexperts.com/"><img src={temp1} className="temp-img" alt=""></img></a>
+            <a href="https://www.vconnectexperts.com/" target="_blank"><img src={temp1} className="temp-img" alt=""></img></a>
           </div>
           <div className="temp" data-aos="fade-up">
-          <a href="https://www.emartxpress.in/"><img src={temp2} className="temp-img" alt=""></img></a>
+          <a href="https://www.emartxpress.in/" target="_blank"><img src={temp2} className="temp-img" alt=""></img></a>
           </div>
           <div className="temp" data-aos="fade-up">
-            <a href=""></a><img src={temp3} className="temp-img" alt=""></img>
+            <a href="https://whimshy.com/" target="_blank"></a><img src={temp3} className="temp-img" alt=""></img>
           </div>
         </div>
         <a href="./Resources" className="a">
@@ -372,22 +372,22 @@ const Home = () => {
         </p>
         <div className="partner-box" data-aos="fade-up">
           <div className="partner-1">
-            <a href="https://www.vconnectexperts.com/">
+            <a href="https://www.vconnectexperts.com/" target="_blank">
               <img src={logo1} width={"160px"} alt=""></img>
             </a>
           </div>
           <div className="partner-1">
-            <a href="https://www.emartxpress.in/">
+            <a href="https://www.emartxpress.in/" target="_blank">
               <img src={logo2} width={"220px"} alt=""></img>
             </a>
           </div>
           <div className="partner-1">
-            <a href="https://emayammart.com/">
+            <a href="https://emayammart.com/" target="_blank">
               <img src={logo3} width={"240px"} alt=""></img>
             </a>
           </div>
           <div className="partner-1">
-            <a href="https://zeromiddleman.com/">
+            <a href="https://zeromiddleman.com/" target="_blank">
               <img src={logo4} width={"250px"} alt=""></img>
             </a>
           </div>
@@ -399,11 +399,11 @@ const Home = () => {
         <h1>LATEST NEWS</h1>
         <div className="latest-container">
           <div className="latest-news">
-            <a href="article-1">
+            <a href="article-1" target="_blank">
               <img src={art1} alt=""></img>
             </a>
             <p className="date">15/05/2024</p>
-            <a href="article-1">
+            <a href="article-1" target="_blank">
               <h4>lorem ipsum dolar amet</h4>
             </a>
             <br />
@@ -413,11 +413,11 @@ const Home = () => {
             </p>
           </div>
           <div className="latest-news">
-            <a href="article-2">
+            <a href="article-2" target="_blank">
               <img src={art2} alt=""></img>
             </a>
             <p className="date">15/05/2024</p>
-            <a href="article-2">
+            <a href="article-2" target="_blank">
               <h4>lorem ipsum dolar amet</h4>
             </a>
             <br />
@@ -427,11 +427,11 @@ const Home = () => {
             </p>
           </div>
           <div className="latest-news">
-            <a href="article-3">
+            <a href="article-3" target="_blank">
               <img src={art3} alt=""></img>
             </a>
             <p className="date">15/05/2024</p>
-            <a href="article-3">
+            <a href="article-3" target="_blank">
               <h4>lorem ipsum dolar amet</h4>
             </a>
             <br />

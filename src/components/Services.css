@@ -30,10 +30,16 @@ h3{
     margin-top: 10px;
 }
 .btmsp{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
+.ft-siz{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
 .web{
     text-align: center;
+    padding-bottom: 40px;
 }
 h1 , h2{
     font-family: "Open Sans", sans-serif;
@@ -63,7 +69,7 @@ h1 , h2{
     transition: transform 2s;
     border-radius: 30px;
     /* borderhe: solid 2px; */
-    margin: 0 20px 20px 20px;
+    margin: 0 22px 50px 20px;
     overflow: hidden;
 }
 .overalltitlesection{
@@ -80,7 +86,15 @@ h1 , h2{
     text-align: center;
 }
 .pad{
-    padding: 30px 5%;
+    padding: 50px 5%;
+}
+
+.pads{
+    padding-bottom: 100px;
+}
+
+.padss{
+    padding-bottom: 30px;
 }
 .clr{
     color: white;
@@ -224,9 +238,9 @@ h1 , h2{
     width: 100%;
     object-fit:cover;  
 }
-.img-cnt{
-    width: 20rem;
-    height: 28rem;
+.img-cnts{
+    width: 350px;
+    height: 500px;
     margin: 20px;
     overflow-y: scroll;
     
